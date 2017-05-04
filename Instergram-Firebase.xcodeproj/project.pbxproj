@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8ABE3DDF27278626563FEB /* Pods_Instergram_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC2589644D32130D9E8B6CF /* Pods_Instergram_FirebaseTests.framework */; };
+		5477C6DC54B16838BD675A50 /* Pods_Instergram_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEA262681AF65CD2E4EE421 /* Pods_Instergram_Firebase.framework */; };
+		B201D6141E90051300E7E670 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201D6131E90051300E7E670 /* Extensions.swift */; };
+		B27C052C1EB034D10029F16E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B27C052B1EB034D10029F16E /* GoogleService-Info.plist */; };
+		B27C052E1EB0641D0029F16E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C052D1EB0641D0029F16E /* MainTabBarController.swift */; };
+		B27C05301EB064CD0029F16E /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C052F1EB064CD0029F16E /* UserProfileController.swift */; };
+		B27C05321EB06CD90029F16E /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C05311EB06CD90029F16E /* UserProfileHeader.swift */; };
+		B27C05341EB0889E0029F16E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C05331EB0889E0029F16E /* LoginController.swift */; };
+		B27C05361EB20D480029F16E /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27C05351EB20D480029F16E /* PhotoSelectorController.swift */; };
+		B29AD28F1EB8729C00C6AB69 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AD28E1EB8729C00C6AB69 /* Post.swift */; };
+		B29AD2911EB8740000C6AB69 /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AD2901EB8740000C6AB69 /* UserProfilePhotoCell.swift */; };
+		B29AD2931EB8FDD400C6AB69 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AD2921EB8FDD400C6AB69 /* CustomImageView.swift */; };
+		B2F50F1E1EB234EA00570662 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F50F1D1EB234EA00570662 /* PhotoSelectorCell.swift */; };
+		B2F50F201EB23A3600570662 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F50F1F1EB23A3600570662 /* PhotoSelectorHeader.swift */; };
+		B2F50F221EB241F500570662 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F50F211EB241F500570662 /* SharePhotoController.swift */; };
 		B2FB22751E8FC32D00980354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB22741E8FC32D00980354 /* AppDelegate.swift */; };
-		B2FB22771E8FC32D00980354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB22761E8FC32D00980354 /* ViewController.swift */; };
-		B2FB227A1E8FC32D00980354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FB22781E8FC32D00980354 /* Main.storyboard */; };
-		B2FB227D1E8FC32D00980354 /* Instergram_Firebase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2FB227B1E8FC32D00980354 /* Instergram_Firebase.xcdatamodeld */; };
+		B2FB22771E8FC32D00980354 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB22761E8FC32D00980354 /* SignUpViewController.swift */; };
+		B2FB227D1E8FC32D00980354 /* GoogleService-Info.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2FB227B1E8FC32D00980354 /* GoogleService-Info.xcdatamodeld */; };
 		B2FB227F1E8FC32D00980354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FB227E1E8FC32D00980354 /* Assets.xcassets */; };
 		B2FB22821E8FC32D00980354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FB22801E8FC32D00980354 /* LaunchScreen.storyboard */; };
 		B2FB228D1E8FC32D00980354 /* Instergram_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB228C1E8FC32D00980354 /* Instergram_FirebaseTests.swift */; };
 		B2FB22981E8FC32D00980354 /* Instergram_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB22971E8FC32D00980354 /* Instergram_FirebaseUITests.swift */; };
+		D075A3E6FAB7931F052E95DE /* Pods_Instergram_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EC55A7DCBE9F316E99D547 /* Pods_Instergram_FirebaseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +50,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB28EFA295D4C5F35C7A77C /* Pods-Instergram-Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instergram-Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instergram-Firebase/Pods-Instergram-Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		2BEA262681AF65CD2E4EE421 /* Pods_Instergram_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instergram_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		484E38B1685BDE8EFE13A7C3 /* Pods-Instergram-Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instergram-Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instergram-Firebase/Pods-Instergram-Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		4A987A40D1099BD554FA5102 /* Pods-Instergram-FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instergram-FirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instergram-FirebaseTests/Pods-Instergram-FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		562D82D6D8F1400195E02E34 /* Pods-Instergram-FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instergram-FirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instergram-FirebaseUITests/Pods-Instergram-FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA098F304D9A604BCA7EC4CC /* Pods-Instergram-FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instergram-FirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instergram-FirebaseUITests/Pods-Instergram-FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB48EF7DE722134B5FF7CD45 /* Pods-Instergram-FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instergram-FirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instergram-FirebaseTests/Pods-Instergram-FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B201D6131E90051300E7E670 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B27C052B1EB034D10029F16E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B27C052D1EB0641D0029F16E /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B27C052F1EB064CD0029F16E /* UserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		B27C05311EB06CD90029F16E /* UserProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		B27C05331EB0889E0029F16E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B27C05351EB20D480029F16E /* PhotoSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
+		B29AD28E1EB8729C00C6AB69 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B29AD2901EB8740000C6AB69 /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
+		B29AD2921EB8FDD400C6AB69 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		B2F50F1D1EB234EA00570662 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
+		B2F50F1F1EB23A3600570662 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		B2F50F211EB241F500570662 /* SharePhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
 		B2FB22711E8FC32D00980354 /* Instergram-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instergram-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FB22741E8FC32D00980354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2FB22761E8FC32D00980354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2FB22791E8FC32D00980354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2FB227C1E8FC32D00980354 /* Instergram_Firebase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instergram_Firebase.xcdatamodel; sourceTree = "<group>"; };
+		B2FB22761E8FC32D00980354 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B2FB227C1E8FC32D00980354 /* GoogleService-Info.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GoogleService-Info.xcdatamodel"; sourceTree = "<group>"; };
 		B2FB227E1E8FC32D00980354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2FB22811E8FC32D00980354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2FB22831E8FC32D00980354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +83,8 @@
 		B2FB22931E8FC32D00980354 /* Instergram-FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instergram-FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FB22971E8FC32D00980354 /* Instergram_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instergram_FirebaseUITests.swift; sourceTree = "<group>"; };
 		B2FB22991E8FC32D00980354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC2589644D32130D9E8B6CF /* Pods_Instergram_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instergram_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EC55A7DCBE9F316E99D547 /* Pods_Instergram_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instergram_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5477C6DC54B16838BD675A50 /* Pods_Instergram_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8ABE3DDF27278626563FEB /* Pods_Instergram_FirebaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D075A3E6FAB7931F052E95DE /* Pods_Instergram_FirebaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		726F1F7EB34407CBEC58B648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BEA262681AF65CD2E4EE421 /* Pods_Instergram_Firebase.framework */,
+				CDC2589644D32130D9E8B6CF /* Pods_Instergram_FirebaseTests.framework */,
+				D3EC55A7DCBE9F316E99D547 /* Pods_Instergram_FirebaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B201D6121E9004FD00E7E670 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B201D6131E90051300E7E670 /* Extensions.swift */,
+				B29AD2921EB8FDD400C6AB69 /* CustomImageView.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B29AD28D1EB8728600C6AB69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B29AD28E1EB8729C00C6AB69 /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B2F50F1A1EB2316200570662 /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				B27C05351EB20D480029F16E /* PhotoSelectorController.swift */,
+				B2F50F1D1EB234EA00570662 /* PhotoSelectorCell.swift */,
+				B2F50F1F1EB23A3600570662 /* PhotoSelectorHeader.swift */,
+				B2F50F211EB241F500570662 /* SharePhotoController.swift */,
+			);
+			name = AddPhoto;
+			sourceTree = "<group>";
+		};
+		B2F50F1B1EB2317300570662 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B27C05331EB0889E0029F16E /* LoginController.swift */,
+				B2FB22761E8FC32D00980354 /* SignUpViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B2F50F1C1EB2318200570662 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				B27C052F1EB064CD0029F16E /* UserProfileController.swift */,
+				B27C05311EB06CD90029F16E /* UserProfileHeader.swift */,
+				B29AD2901EB8740000C6AB69 /* UserProfilePhotoCell.swift */,
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
 		B2FB22681E8FC32D00980354 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +179,8 @@
 				B2FB228B1E8FC32D00980354 /* Instergram-FirebaseTests */,
 				B2FB22961E8FC32D00980354 /* Instergram-FirebaseUITests */,
 				B2FB22721E8FC32D00980354 /* Products */,
+				C5ACD252BFB982A01B2CC544 /* Pods */,
+				726F1F7EB34407CBEC58B648 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +197,18 @@
 		B2FB22731E8FC32D00980354 /* Instergram-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				B29AD28D1EB8728600C6AB69 /* Models */,
+				B2F50F1B1EB2317300570662 /* Login */,
+				B2F50F1C1EB2318200570662 /* UserProfile */,
+				B2F50F1A1EB2316200570662 /* AddPhoto */,
+				B201D6121E9004FD00E7E670 /* Utils */,
 				B2FB22741E8FC32D00980354 /* AppDelegate.swift */,
-				B2FB22761E8FC32D00980354 /* ViewController.swift */,
-				B2FB22781E8FC32D00980354 /* Main.storyboard */,
+				B27C052D1EB0641D0029F16E /* MainTabBarController.swift */,
 				B2FB227E1E8FC32D00980354 /* Assets.xcassets */,
 				B2FB22801E8FC32D00980354 /* LaunchScreen.storyboard */,
 				B2FB22831E8FC32D00980354 /* Info.plist */,
-				B2FB227B1E8FC32D00980354 /* Instergram_Firebase.xcdatamodeld */,
+				B27C052B1EB034D10029F16E /* GoogleService-Info.plist */,
+				B2FB227B1E8FC32D00980354 /* GoogleService-Info.xcdatamodeld */,
 			);
 			path = "Instergram-Firebase";
 			sourceTree = "<group>";
@@ -128,6 +231,19 @@
 			path = "Instergram-FirebaseUITests";
 			sourceTree = "<group>";
 		};
+		C5ACD252BFB982A01B2CC544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB28EFA295D4C5F35C7A77C /* Pods-Instergram-Firebase.debug.xcconfig */,
+				484E38B1685BDE8EFE13A7C3 /* Pods-Instergram-Firebase.release.xcconfig */,
+				AB48EF7DE722134B5FF7CD45 /* Pods-Instergram-FirebaseTests.debug.xcconfig */,
+				4A987A40D1099BD554FA5102 /* Pods-Instergram-FirebaseTests.release.xcconfig */,
+				562D82D6D8F1400195E02E34 /* Pods-Instergram-FirebaseUITests.debug.xcconfig */,
+				AA098F304D9A604BCA7EC4CC /* Pods-Instergram-FirebaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FB229C1E8FC32D00980354 /* Build configuration list for PBXNativeTarget "Instergram-Firebase" */;
 			buildPhases = (
+				D965EBDBE715A15BB3898B83 /* [CP] Check Pods Manifest.lock */,
 				B2FB226D1E8FC32D00980354 /* Sources */,
 				B2FB226E1E8FC32D00980354 /* Frameworks */,
 				B2FB226F1E8FC32D00980354 /* Resources */,
+				4879285A3B2353BE2B14899D /* [CP] Embed Pods Frameworks */,
+				B4D73F7EFD5E7163DD03990E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FB229F1E8FC32D00980354 /* Build configuration list for PBXNativeTarget "Instergram-FirebaseTests" */;
 			buildPhases = (
+				9BFBCBD6F10D90D14A75E3A3 /* [CP] Check Pods Manifest.lock */,
 				B2FB22841E8FC32D00980354 /* Sources */,
 				B2FB22851E8FC32D00980354 /* Frameworks */,
 				B2FB22861E8FC32D00980354 /* Resources */,
+				6DAAFCC9891E376026F93425 /* [CP] Embed Pods Frameworks */,
+				77FCD00532AC7D2ED0EE5400 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FB22A21E8FC32D00980354 /* Build configuration list for PBXNativeTarget "Instergram-FirebaseUITests" */;
 			buildPhases = (
+				3D40E1D4D9026D7544537258 /* [CP] Check Pods Manifest.lock */,
 				B2FB228F1E8FC32D00980354 /* Sources */,
 				B2FB22901E8FC32D00980354 /* Frameworks */,
 				B2FB22911E8FC32D00980354 /* Resources */,
+				1DCE28FBAF25F52450E500DA /* [CP] Embed Pods Frameworks */,
+				D8F0FC5FB5714FC61B0A58BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2FB22821E8FC32D00980354 /* LaunchScreen.storyboard in Resources */,
+				B27C052C1EB034D10029F16E /* GoogleService-Info.plist in Resources */,
 				B2FB227F1E8FC32D00980354 /* Assets.xcassets in Resources */,
-				B2FB227A1E8FC32D00980354 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +385,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DCE28FBAF25F52450E500DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instergram-FirebaseUITests/Pods-Instergram-FirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D40E1D4D9026D7544537258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4879285A3B2353BE2B14899D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instergram-Firebase/Pods-Instergram-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAAFCC9891E376026F93425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instergram-FirebaseTests/Pods-Instergram-FirebaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FCD00532AC7D2ED0EE5400 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instergram-FirebaseTests/Pods-Instergram-FirebaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFBCBD6F10D90D14A75E3A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D73F7EFD5E7163DD03990E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instergram-Firebase/Pods-Instergram-Firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F0FC5FB5714FC61B0A58BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instergram-FirebaseUITests/Pods-Instergram-FirebaseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D965EBDBE715A15BB3898B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2FB226D1E8FC32D00980354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FB22771E8FC32D00980354 /* ViewController.swift in Sources */,
+				B2FB22771E8FC32D00980354 /* SignUpViewController.swift in Sources */,
+				B27C05321EB06CD90029F16E /* UserProfileHeader.swift in Sources */,
 				B2FB22751E8FC32D00980354 /* AppDelegate.swift in Sources */,
-				B2FB227D1E8FC32D00980354 /* Instergram_Firebase.xcdatamodeld in Sources */,
+				B27C05361EB20D480029F16E /* PhotoSelectorController.swift in Sources */,
+				B29AD2931EB8FDD400C6AB69 /* CustomImageView.swift in Sources */,
+				B29AD28F1EB8729C00C6AB69 /* Post.swift in Sources */,
+				B27C05301EB064CD0029F16E /* UserProfileController.swift in Sources */,
+				B27C052E1EB0641D0029F16E /* MainTabBarController.swift in Sources */,
+				B2F50F221EB241F500570662 /* SharePhotoController.swift in Sources */,
+				B2F50F201EB23A3600570662 /* PhotoSelectorHeader.swift in Sources */,
+				B27C05341EB0889E0029F16E /* LoginController.swift in Sources */,
+				B2FB227D1E8FC32D00980354 /* GoogleService-Info.xcdatamodeld in Sources */,
+				B29AD2911EB8740000C6AB69 /* UserProfilePhotoCell.swift in Sources */,
+				B201D6141E90051300E7E670 /* Extensions.swift in Sources */,
+				B2F50F1E1EB234EA00570662 /* PhotoSelectorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +578,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B2FB22781E8FC32D00980354 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2FB22791E8FC32D00980354 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B2FB22801E8FC32D00980354 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,6 +684,7 @@
 		};
 		B2FB229D1E8FC32D00980354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB28EFA295D4C5F35C7A77C /* Pods-Instergram-Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9H74E7E8D9;
@@ -430,6 +698,7 @@
 		};
 		B2FB229E1E8FC32D00980354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484E38B1685BDE8EFE13A7C3 /* Pods-Instergram-Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9H74E7E8D9;
@@ -443,6 +712,7 @@
 		};
 		B2FB22A01E8FC32D00980354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB48EF7DE722134B5FF7CD45 /* Pods-Instergram-FirebaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +728,7 @@
 		};
 		B2FB22A11E8FC32D00980354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A987A40D1099BD554FA5102 /* Pods-Instergram-FirebaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +744,7 @@
 		};
 		B2FB22A31E8FC32D00980354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562D82D6D8F1400195E02E34 /* Pods-Instergram-FirebaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9H74E7E8D9;
@@ -487,6 +759,7 @@
 		};
 		B2FB22A41E8FC32D00980354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA098F304D9A604BCA7EC4CC /* Pods-Instergram-FirebaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9H74E7E8D9;
@@ -518,6 +791,7 @@
 				B2FB229E1E8FC32D00980354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2FB229F1E8FC32D00980354 /* Build configuration list for PBXNativeTarget "Instergram-FirebaseTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +800,7 @@
 				B2FB22A11E8FC32D00980354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2FB22A21E8FC32D00980354 /* Build configuration list for PBXNativeTarget "Instergram-FirebaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,17 +809,18 @@
 				B2FB22A41E8FC32D00980354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B2FB227B1E8FC32D00980354 /* Instergram_Firebase.xcdatamodeld */ = {
+		B2FB227B1E8FC32D00980354 /* GoogleService-Info.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B2FB227C1E8FC32D00980354 /* Instergram_Firebase.xcdatamodel */,
+				B2FB227C1E8FC32D00980354 /* GoogleService-Info.xcdatamodel */,
 			);
-			currentVersion = B2FB227C1E8FC32D00980354 /* Instergram_Firebase.xcdatamodel */;
-			path = Instergram_Firebase.xcdatamodeld;
+			currentVersion = B2FB227C1E8FC32D00980354 /* GoogleService-Info.xcdatamodel */;
+			path = "GoogleService-Info.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
